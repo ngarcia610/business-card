@@ -2,7 +2,7 @@
   Hover and click on the card for animations!
 */
 
-@import url(https://fonts.googleapis.com/css?family=Cormorant+Garamond);
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 *,
 *::before,
@@ -11,7 +11,7 @@
 }
 
 html {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
   text-transform: uppercase;
   box-sizing: inherit;
   font-size: 10.5px;
@@ -48,17 +48,17 @@ button {
 }
 
 .big {
-  font-size: 150%;
+  font-size: 400%;
 }
 
 .med {
-  font-size: 100%;
-  letter-spacing: .5px;
+  font-size: 200%;
+  letter-spacing: 1px;
 }
 
 .small {
-  font-size: 65%;
-  letter-spacing: .5px;
+  font-size: 100%;
+  letter-spacing: 1px;
 }
 
 .no-space {
@@ -68,8 +68,8 @@ button {
 .card {
   background-color: #f4f1eb;
   background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
-  height: 200px;
-  width: 350px;
+  height: 400px;
+  width: 700px;
   margin: 20vh auto 0 auto;
   padding: 20px 10px 10px 10px;
   transform: rotateX(60deg) rotateY(0deg) rotateZ(45deg);
@@ -146,4 +146,9 @@ button {
 
 p {
   margin: 0;
+}
+
+a {
+  color: #a41e35;
+  text-decoration: none;
 }
